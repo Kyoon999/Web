@@ -6,6 +6,7 @@
     padding: 200px;
     text-align:center;
    background-image: url('Background1.jpg');
+   background-position: center;
    color:white;
    Background-repeat:no-repeat; 
    Display:block;
