@@ -1,15 +1,15 @@
-*{
+
     
-    <!-- box-sizing: border-box; -->
-}
+    
+
 .header{
     padding: 200px;
     text-align:center;
    background-image: url('Background1.jpg');
    background-position: center;
    color:white;
-   Background-repeat:no-repeat; 
-   Display:block;
+   background-repeat:no-repeat; 
+   display:block;}
     .bg-music{
     position: absolute;
     top: 64%;
@@ -26,10 +26,17 @@
     margin: 0 auto;
     opacity: .3;
 }
-}
 .topnav{
     background-color:black;
     overflow:hidden;
+}
+.topnav a{
+    float: left;
+    display:block;
+    color:tomato;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration:none;
 }
 
 .topnav:hover{
