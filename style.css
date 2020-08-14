@@ -1,7 +1,3 @@
-
-    
-    
-
 .header{
     padding: 200px;
     text-align:center;
@@ -19,7 +15,7 @@
     }
    .btn{
     background-color: transparent;
-    color: #fff;
+    color: darkmagenta;
     font-size: 78px;
     border: none;
     display: block;
