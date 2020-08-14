@@ -10,7 +10,13 @@
    color:white;
    Background-repeat:no-repeat; 
    Display:block;
-   
+    .bg-music{
+    position: absolute;
+    top: 64%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;    
+    }
    .btn{
     background-color: transparent;
     color: #fff;
@@ -27,6 +33,6 @@
 }
 
 .topnav:hover{
-    background-color: aqua;
+    background-color: lightpink;
     color: black;
 }
