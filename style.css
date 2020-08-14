@@ -10,6 +10,16 @@
    color:white;
    Background-repeat:no-repeat; 
    Display:block;
+   
+   .btn{
+    background-color: transparent;
+    color: #fff;
+    font-size: 78px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    opacity: .3;
+}
 }
 .topnav{
     background-color:black;
