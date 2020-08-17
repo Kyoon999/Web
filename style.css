@@ -60,3 +60,14 @@ img{
     border-style:dotted;
     margin-top:1000px;
 }
+.leftcolumn {
+    float:left;
+    width:75%;
+}
+
+.card{
+    background-color: beige;
+    width: 100%;
+    padding: 20px;
+    text-align:center;
+}
