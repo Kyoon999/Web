@@ -67,7 +67,19 @@ img{
 
 .card{
     background-color: beige;
-    width: 100%;
+    width: 95%;
     padding: 20px;
     text-align:center;
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+}
+.rightcolumn {
+    float: left;
+    width:25%;
+}
+.image {
+    width:60 px;
+    height:60 px;
 }
