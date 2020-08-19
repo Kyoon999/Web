@@ -46,9 +46,9 @@ Kailey's Website
              <p> This is my centered image</p>
         </div>
 
-        <input type="text" value="">
+        <input type="text" value="" id="name">
         <input type="Submit" value="Submit" onclick="AlertMe();">
-        
+
         </div>
 
     </div>
@@ -114,6 +114,13 @@ var button = document.getElementById("click");
         document.body.scrollTop =0;
         document.documentElement.scrollTop=0;
     }
+    function AlertMe(){
+        var name = document.getElementById("name").value;
+        alert(name +",Hello there!");
+        document.getElementById("name").value="";
+        location.href="http://www.google.com";
+    }
+
 
 </script>
 
